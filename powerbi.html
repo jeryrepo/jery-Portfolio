@@ -1,0 +1,211 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>HR Analytics - Power BI Dashboard</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo"><strong>Data Analyst Portfolio</strong> <span>by Hassan Hashmi</span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+				<nav id="menu">
+					<ul class="links">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="#footer">Contact</a></li>
+						 <div class="dropup">
+							  <div class="dropup-content">
+									<a href="python.html">Python</a>
+									<a href="sql.html">SQL</a>
+									<a href="excel.html">Excel</a>
+									<a href="powerbi.html">Power BI</a>
+							</div>
+						 </div>	
+					</ul>						
+				</nav>
+
+
+				<!-- Main -->
+					<div id="main" class="alt">
+						
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h1>HR Analytics Dashboard: Analyzing Employee Churn</h1>
+									</header>
+									<!--<span class="image main"><img src="images/pic11.jpg" alt="" /></span> -->
+									<h2>Goal</h2>
+									<p>The HR Analytics Dashboard project aims to identify the factors contributing to employee churn and provide actionable insights to reduce employee turnover rate, improve employee retention, and enhance overall organizational performance.</p>
+									<a href="https://github.com/jeryrepo/HR-Analysis-MySQL-PowerBI/blob/main/dashboard.pbix" target="_blank">Download from GitHub!</a>
+									<p></p>
+
+									<h2>Background Information</h2>
+									<p>The dataset includes information about employees in the company. It contains various attributes such as the employee's id, gender, job role, first name, last name, and department. Other information in the dataset includes the employee's race, location city/sate, hire date, termination date, location(head quarter/remote), and birth date. Additionally, the dataset includes a column termdate(termination date), the blanks shows that an employee is still employed and dates represents termination dates .</p>
+									
+									<p></p>
+
+
+									<h2>Setup</h2>
+									<p>The first step in the project involved data cleaning to ensure accurate analysis. This included removing any duplicate entries to avoid potential biases in the dataset. To facilitate better visualization of the data, missing values in the termdate column were replaced by 0, because they represent that the employees are still working. Furthermore, I verified that there was no missing data and that each field had the correct data type using Power BI's query tool.</p>
+									<img src="images/hr3.jpg" alt="HR Data after transformation" style="width:1000px;height:500px;" data-position="center center" />
+									<p>These steps were essential to ensure that the data was properly formatted for analysis and would yield accurate results.</p>
+									
+									<h2>Dashboard Design and Creation.</h2>
+									<p>With the processed data, Created a dynamic Employee dashboard that presents key insights on employee attrition. The dashboard includes line chart, stacked column chart, stacked bar chart, donut chart showing number of employees by year, avg lenght of an employee, employees working head quarter or remote, and gender wise distribution by departments and much more, providing a comprehensive view of factors contributing to attrition within the company. These visualizations can help inform HR decision-making and guide targeted efforts to reduce attrition and retain valuable employees.</p>
+									
+									
+									<img src="images/hr.jpg" alt="HR Analytics Dashboard" style="width:1000px;height:500px;" data-position="center center" />
+									<img src="images/hr2.jpg" alt="HR Analytics Dashboard" style="width:1000px;height:500px;" data-position="center center" />
+
+									<p>In addition to creating the charts mentioned earlier, I also added slicers and filters to the HR analytics dashboard. These slicers and filters made the dashboard more dynamic and interactive user experience, allowing the user to explore the data in greater detail and gain deeper insights.</p>
+
+
+
+									<h2>Conclusion</h2>
+									<p>The HR analytics dashboard created using Power BI is a powerful tool for making informed decisions about employee attrition. It demonstrates my skills in data analysis and visualization. The skills I have acquired in this project can be applied to various industries and domains, helping organizations make data-driven decisions and achieve their goals.</p>
+
+									
+								</div>
+							</section>
+                        
+					</div>
+<!-- One -->
+<section id="one">
+	<div class="inner">
+		<header class="major">
+			<h1>WhatsApp Chat Analytics Dashboard: Analyzing Users</h1>
+		</header>
+		<!--<span class="image main"><img src="images/pic11.jpg" alt="" /></span> -->
+		<h2>Goal</h2>
+		<p>The ChatAnalyser was specifically built to tareget universities and botcamps having whatsapp groups, In order to get insights from the group like total number of messages, which user is mostly active , sentiment analysis by each user, messages done by each user and much more.</p>
+		<a href="https://github.com/jeryrepo/ChatAnalyser/blob/main/ChatAnalyserDash.pbix" target="_blank">Download from GitHub!</a>
+		<p></p>
+
+		<h2>Background Information</h2>
+		<p>Totally cleaned raw txt file Handled ambiguous column names, date column handling, dealt with missing date values, handles format issues, and standardizes the gender format. Used NLTK's Vader SentimentIntensityAnalyzer to calculate the sentiment score of each cleaned message. Extracts messages and dates from the chat log using regular expressions. Creates a pandas DataFrame with the extracted data and additional columns for the user, message, date, time, hour, year, month, day, and minute. The analysis is performed using pandas, a powerful data analysis and manipulation library. Each analysis is exported into CSV format and a dashboard is created using PowerBI for visual representation of the analysis.</p>
+		
+		<p></p>
+
+
+		<h2>Setup</h2>
+		<img src="images/chat1.jpg" alt="HR Data after transformation" style="width:1000px;height:500px;" data-position="center center" />
+		
+		<h2>Dashboard Design and Creation.</h2>
+		
+		<img src="images/chat.jpg" alt="HR Analytics Dashboard" style="width:1000px;height:500px;" data-position="center center" />
+
+		<h2>Conclusion</h2>
+		<p>WhatsApp Chat Analytics dashboard created using Power BI is a powerful tool for making informed decisions. This can be applied to various industries and domains, helping organizations make data-driven decisions and achieve their goals.</p>
+
+		
+	</div>
+</section>
+
+</div>
+				<!-- Contact -->
+					<!--<section id="contact">
+						<div class="inner">
+							<section>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="6"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Clear" /></li>
+									</ul>
+								</form>
+							</section>
+							<section class="split">
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-envelope"></span>
+										<h3>Email</h3>
+										<a href="#">information@untitled.tld</a>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-phone"></span>
+										<h3>Phone</h3>
+										<span>(000) 000-0000 x12387</span>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-home"></span>
+										<h3>Address</h3>
+										<span>1234 Somewhere Road #5432<br />
+										Nashville, TN 00000<br />
+										United States of America</span>
+									</div>
+								</section>
+							</section>-->
+						</div>
+					</section>
+
+				<!-- Footer -->
+				<section class="split">
+					<section>
+						<h4>Contact Information</h4>															
+					</section>
+				</section>
+			</div>
+									<!-- Footer -->
+									<footer id="footer">
+										<div class="inner">
+											<ul class="icons">
+												<li><a href="mailto:najamhere4@gmail.com" target="_blank" class="icon solid alt fa-envelope"><span class="label">Twitter</span></a></li>
+												<li><a href="https://github.com/jeryrepo" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+												<li><a href="https://www.linkedin.com/in/hassan-hashmi-6b9634257/" target="_blank" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+											</ul>
+											<ul class="copyright">
+												<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+											</ul>
+										</div>
+									</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
